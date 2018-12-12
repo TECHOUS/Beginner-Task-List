@@ -12,4 +12,4 @@
 git clone https://github.com/TechOUs/UCA-NODE-PROJECT.git
 ```
 
-* Download zip [here](https://github.com/TechOUs/UCA-NODE-PROJECT/archieve/master.zip)
+* Download zip [here](https://github.com/TechOUs/UCA-NODE-PROJECT/archive/master.zip)
