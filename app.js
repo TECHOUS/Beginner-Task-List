@@ -6,8 +6,10 @@ var fs = require('fs');
  * Content-Type header will be set to the provided contentType. */
 function readAndServe(path, contentType, response) 
 {
-  fs.readFile(path, function(error, data) {
-    if (error) {
+  fs.readFile(path, function(error, data) 
+  {
+    if (error) 
+    {
       throw error;
     }
 
@@ -34,17 +36,17 @@ function readTasks(callback)
   fs.readFile('tasks', function(error, contents) 
   {
     if (error) 
-	{
+	  {
       throw error;
     }
 
     var tasks;
     if (contents.length === 0) 
-	{
+	  {
       tasks = [];
     } 
-	else 
-	{
+	  else 
+	  {
       tasks = JSON.parse(contents);
     }
     callback(tasks);
@@ -82,9 +84,6 @@ function deletetask(id,callback)
 		
 		
 	});
-	
-	
-	
 }
 
 

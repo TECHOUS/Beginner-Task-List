@@ -1,0 +1,22 @@
+{
+  "name": "uca-node",
+  "version": "1.0.0",
+  "description": "this it node project using express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechOUs/UCA-NODE-PROJECT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TechOUs/UCA-NODE-PROJECT/issues"
+  },
+  "homepage": "https://github.com/TechOUs/UCA-NODE-PROJECT#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

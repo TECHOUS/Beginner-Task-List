@@ -1,0 +1,4 @@
+# IGNORE FILES FOR EXPRESS
+
+node_modules
+package-lock.json
